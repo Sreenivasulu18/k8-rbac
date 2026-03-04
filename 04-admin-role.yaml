@@ -3,7 +3,7 @@ kind: Role
 metadata:
   namespace: roboshop
   name: roboshop-admin
-roles:
+rules:
 - apiGroups: ["*"]
   resources: ["*"]
   verbs: ["*"]
