@@ -14,7 +14,7 @@ metadata:
   name: roboshop-admin
 rules:
 - apiGroups: ["storage.k8s.io"]
-  resources: ["storageClasses"]
+  resources: ["storageclasses"]
   verbs: ["get", "list", "watch"]
 - apiGroups: [""]
   resources: ["persistentvolumes"]
